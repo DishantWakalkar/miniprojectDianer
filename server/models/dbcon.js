@@ -4,7 +4,7 @@ const con = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "",
-    database: 'new_database',
+    database: 'formoodle',
 });
 con.connect((err)=>{
     if (err) throw err;    
